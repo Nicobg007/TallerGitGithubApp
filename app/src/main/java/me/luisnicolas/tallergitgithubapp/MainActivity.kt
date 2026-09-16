@@ -51,6 +51,18 @@ fun ProfileScreen() {
         HorizontalDivider()
         Spacer(modifier = Modifier.height(16.dp))
 
+        Text(
+            text = "SOBRE MI MATERIA FAVORITA",
+            fontSize = 12.sp,
+            color = Color.Gray,
+            textAlign = TextAlign.Center
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            text = "Me apasiona el Desarrollo de Aplicaciones Móviles porque permite transformar ideas en herramientas tangibles que las personas usan a diario. Me encanta el reto de diseñar interfaces intuitivas.",
+            fontSize = 14.sp,
+            textAlign = TextAlign.Center
+        )
 
         Spacer(modifier = Modifier.height(32.dp))
 
